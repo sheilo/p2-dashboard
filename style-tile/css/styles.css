@@ -13,29 +13,81 @@ section {
 .color-3,
 .pattern-1,
 .pattern-2,
-.pattern-3, 
-.imagery-1,
-.imagery-2,
-.imagery-3 {
-	border: 1px solid #000;
+.pattern-3 {
+	border: 2px solid #595959;
 	float: left;
 	margin: 0 10px;
 	height: 50px;
 	width: 50px;
+	border-radius: 10px;
 }
 
 /*Style Tyle for Michael Viehouser*/
+body{
+	background: url("../img/moulin.png");
+}
+
+.container{
+	background-color: rgba(255, 255, 255, .75);
+	margin: none;
+}
 
 .color-1{
-	background: orange;
+	background: #85361E;
 }
 
 .color-2{
-	background: green;
+	background: #911A31;
 }
 
 .color-3{
-	background: black;
+	background: #043826;
+}
+
+.pattern-1{
+	background: url("../img/escheresque.png");
+}
+
+.pattern-2{
+	background: url("../img/moulin.png");
+}
+
+.pattern-3{
+	background: url("../img/smallsteps.png");
+}
+
+.image img{
+	background: url("../img/p1-persona.jpg") no-repeat;
+	width: 85%;
+}
+
+h1, 
+h2, 
+h3 {
+	font-family: 'Coda', sans-serif;
+}
+
+p{
+	font-family: 'Cutive', serif;
+}
+
+em{
+	font-family: 'Merriweather Sans', sans-serif;
+}
+
+a:link{
+	text-decoration: none;
+	color: #000;
+}
+
+a:hover{
+	color: #043826;
+	background-color: rgba(4, 56, 38, .2);
+}
+
+a:visited{
+	text-decoration: line-through;
+	color: #911A31
 }
 
 /* Show Grid */
