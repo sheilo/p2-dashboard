@@ -1,11 +1,12 @@
-/*Profile*/
-.profile{
-	background: orange;
+/*Login*/
+.login{
+	font-family: 'Coda', sans-serif;
 }
 
 /*Balance*/
 
 .balance h1{
 	color: orange;
+	font-family: 'Coda', sans-serif;
 	font-size: 3em;
 }

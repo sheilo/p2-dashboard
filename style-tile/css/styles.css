@@ -82,14 +82,15 @@ a:link{
 	color: #000;
 }
 
-a:hover{
+a:hover, 
+a:active {
+	text-decoration: none;
 	color: #043826;
-	background-color: rgba(4, 56, 38, .2);
 }
 
-a:visited{
+a:visited {
 	text-decoration: line-through;
-	color: #911A31
+	color: #911A31;
 }
 
 /* Show Grid */
