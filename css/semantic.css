@@ -6540,7 +6540,6 @@ select.ui.dropdown {
 .ui.feed > .event > .label img {
   width: 100%;
   height: auto;
-  border-radius: 500rem;
 }
 
 .ui.feed > .event > .label + .content {

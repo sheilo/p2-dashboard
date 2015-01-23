@@ -14,3 +14,34 @@
 	font-family: 'Cutive', serif;
 	font-size: .75em;
 }
+
+/*Announcements*/
+.announcements{
+	font-family: 'Cutive', serif;
+	font-size: .75em;
+}
+
+.date{
+	font-family: 'Coda', sans-serif;
+	font-size: 1.5em;
+}
+
+.annoucements img{
+	border-radius: 10px;
+}
+
+a:link{
+	text-decoration: none;
+	color: #85361E;
+}
+
+a:hover, 
+a:active {
+	text-decoration: none;
+	color: #043826;
+}
+
+a:visited {
+	text-decoration: line-through;
+	color: #911A31;
+}
