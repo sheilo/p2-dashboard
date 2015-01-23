@@ -45,3 +45,23 @@ a:visited {
 	text-decoration: line-through;
 	color: #911A31;
 }
+
+/*Email*/
+
+.email .inline{
+	font-family: 'Coda', sans-serif;
+	font-size: 1.5em;
+}
+
+.email .field{
+	font-family: 'Cutive', serif;
+	font-size: .75em;
+}
+
+.email .ui .primary{
+	background-color: #911A31;
+}
+
+.email .ui .button:hover,{
+	background-color: #000;
+}
